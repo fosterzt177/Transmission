@@ -1,5 +1,5 @@
 #include "mbed.h"
-#include "SX1276Lib.h"
+#include "sx1276.h"
 
 // Pin configuration for Raspberry Pi 4
 #define PIN_MOSI    PA_7  // GPIO10 / SPI MOSI

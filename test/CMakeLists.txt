@@ -8,6 +8,8 @@ set(MBED_CONFIG_PATH ${CMAKE_CURRENT_BINARY_DIR} CACHE INTERNAL "")
 set(APP_TARGET test)
 
 include(${MBED_PATH}/tools/cmake/app.cmake)
+include_directories(${CMAKE_SOURCE_DIR}/mbed-os/SX1276Lib/sx1276)
+
 
 project(${APP_TARGET})
 
